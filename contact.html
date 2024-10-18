@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PEPERONI - Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Peperoni Valorant organization">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/logo-skull.png">
+</head>
+
+<body class="index-body">
+    <nav class="navbar-home">
+        <header class="header-index"> 
+            <div class="logo-container">
+                <a href="index.html" class="link"> <img src="images/logo-skull.png" class="logo-index" alt="Peperoni Logo"></a>
+                <h1 class="header-title">Peperoni - ORG</h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav-index">
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="home.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Apply</a></li>
+                    <a href="#" class="nav-link">      </a>
+                </ul>
+            </nav>
+        </header>
+    </nav>
+
+    <main class="content-apply">
+        <section class="form-section">
+            <h2 class="form-title">Apply to Join Peperoni</h2>
+            <p class="form-quote">"Become the main topping on our pepperoni."</p>
+            <form class="application-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="discord" class="form-label">Discord ID:</label>
+                    <input type="text" id="discord" name="discord" class="form-input" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="age" class="form-label">Age:</label>
+                    <input type="number" id="age" name="age" class="form-input" required min="13" max="100">
+                </div>
+    
+                <div class="form-group">
+                    <label for="role" class="form-label">Desired Role:</label>
+                    <select id="role" name="role" class="form-input">
+                        <option value="player">Player</option>
+                        <option value="coach">Coach</option>
+                        <option value="analyst">Analyst</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <label for="experience" class="form-label">Previous Experience:</label>
+                    <textarea id="experience" name="experience" class="form-input" rows="4" required></textarea>
+                </div>
+    
+                <button type="submit" class="form-button">Submit Application</button>
+            </form>
+        </section>
+    </main>    
+
+    <footer class="footer-index">
+        <div class="social-icons-index">
+            <a href="#"><img src="images/facebook.png" alt="Facebook" class="social-icon"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram" class="social-icon"></a>
+            <a href="#"><img src="images/tiktok.webp" alt="TikTok" class="social-icon"></a>
+        </div>
+        <p>© 2024 Peperoni. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
